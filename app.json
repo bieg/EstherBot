@@ -4,7 +4,7 @@
   "keywords": ["indi", "bot", "express"],
   "website": "https://www.independer.nl",
   "repository": "https://github.com/bieg/EstherBot",
-  "logo": "http://www.estherbot.com/wp-content/uploads/2016/03/EstherBot-photo.png",
+  "logo": "https://github.com/bieg/EstherBot/blob/master/img/independer-logo.jpeg",
   "env": {
     "SMOOCH_APP_TOKEN": {
       "description": "0eylebnc5mjasq5cclclquh18",
