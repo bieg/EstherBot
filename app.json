@@ -1,7 +1,7 @@
 {
   "name": "Independer",
-  "description": "Indy, bot.",
-  "keywords": ["indi", "bot", "express"],
+  "description": "Independer, bot.",
+  "keywords": ["independer", "verzekeringen", "bot", "express"],
   "website": "https://www.independer.nl",
   "repository": "https://github.com/bieg/EstherBot",
   "logo": "https://github.com/bieg/EstherBot/blob/master/img/independer-logo.jpeg",
