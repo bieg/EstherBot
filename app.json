@@ -3,8 +3,8 @@
   "description": "Independer, bot.",
   "keywords": ["independer", "verzekeringen", "bot", "express"],
   "website": "https://www.independer.nl",
-  "repository": "https://github.com/bieg/EstherBot",
-  "logo": "https://github.com/bieg/EstherBot/blob/master/img/independer-logo.jpeg",
+  "repository": "https://github.com/bieg/independerBot",
+  "logo": "https://github.com/bieg/independerBot/blob/master/img/independer-logo.jpeg",
   "env": {
     "SMOOCH_APP_TOKEN": {
       "description": "0eylebnc5mjasq5cclclquh18",
