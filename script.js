@@ -10,13 +10,14 @@ module.exports = new Script({
         //prompt: (bot) => bot.say('Beep boop...'),
         receive: () => 'processing'
     },
-
     start: {
         receive: (bot) => {
-            return bot.say('Ik ben Indy - de bot van Independer. Independer maakt verzekeren gemakkelijk. Heb je een vraag? Is er wat gebeurd? Wil je beginnen?'.then(() => 'speak')
+            return bot.say('Ik ben Indy - de bot van Independer. Heb je een vraag?')
+                .then(() => 'speak');
         }
     },
-
+    
+    
     speak: {
         receive: (bot, message) => {
 
