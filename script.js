@@ -12,7 +12,9 @@ module.exports = new Script({
     },
 
     start: {
-        receive: (bot) => {return bot.say('Ik ben Indy - de bot van Independer. Independer maakt verzekeren gemakkelijk. Heb je een vraag? Is er wat gebeurd? Wil je beginnen?'.then(() => 'speak');}
+        receive: (bot) => {
+            return bot.say('Ik ben Indy - de bot van Independer. Independer maakt verzekeren gemakkelijk. Heb je een vraag? Is er wat gebeurd? Wil je beginnen?'.then(() => 'speak')
+        }
     },
 
     speak: {
