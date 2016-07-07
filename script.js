@@ -13,7 +13,7 @@ module.exports = new Script({
 
     start: {
         receive: (bot) => {
-            return bot.say('Independer is here to help you. To make financial products more transparent. So how can we help you best? Just say HELLO to get started.')
+            return bot.say('Ik ben Indy - de bot van Independer. Independer maakt verzekeren gemakkelijk. Heb je een vraag? Is er wat gebeurd? Wil je beginnen?'
                 .then(() => 'speak');
         }
     },
@@ -44,7 +44,7 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.say(`I didn't understand that.`).then(() => 'speak');
+                    return bot.say(`Sorry - ik begrijp je niet.`).then(() => 'speak');
                 }
 
                 var response = scriptRules[upperText];
