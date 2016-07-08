@@ -6,7 +6,7 @@
    "BOT": "Hi there!\nI’m the personal bot of Esther, a Product Marketer from San Francisco.\n![esther](https://raw.githubusercontent.com/esthercrawford/smooch-bot-example/master/img/esther.jpg)\nWant to know more about bots or learn about Esther? %[I'm here for the bot](postback:here_for_the_bot) %[Learn about Esther](postback:learn_about_esther) %[One random fact!](postback:random_fact)",
     "WHO": "Hey, I'm so glad you set EstherBot up! Do you want to tell Esther that you're talking to her bot? %[Tell her](postback:twitter)",
     "wie ben je": "Goed dat je het vraagt: Ik ben Indy - jouw personal Bot bij Independer. Je kan me dus van alles vragen waar ik je dan zo goed mogelijk bij help.",
-      "SCHADE": "Da's vervelend! Ben je zelf ok? %[Gelukkig wel](payload:self_ok) \n%[Helaas niet](self_notok)",
+      "SCHADE": "Da's vervelend! Ben je zelf ok? %[Gelukkig wel](payload:self_ok) \n%[Helaas niet](postback:self_notok)",
 "CAR": "Ik ga even car kijken voor je",
 "Mooi weer": "I am in!\nI’m the personal bot of Esther, a Product Marketer from San Francisco.\n![esther](https://raw.githubusercontent.com/esthercrawford/smooch-bot-example/master/img/esther.jpg)\nWant to know more about bots or learn about Esther? %[I'm here for the bot](postback:here_for_the_bot) %[Learn about Esther](postback:learn_about_esther) %[One random fact!](postback:random_fact)",
 "BOOO": "Hi there!\nI’m the personal bot of Esther, a Product Marketer from San Francisco.\n![esther](https://raw.githubusercontent.com/esthercrawford/smooch-bot-example/master/img/esther.jpg)\nWant to know more about bots or learn about Esther? %[I'm here for the bot](postback:here_for_the_bot) %[Learn about Esther](postback:learn_about_esther) %[One random fact!](postback:random_fact)"
