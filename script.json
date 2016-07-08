@@ -2,7 +2,7 @@
    "CONNECT ME": "",
    "DISCONNECT": "Roger that, EstherBot is back.",
    "HEY" : "Hey, waar kan ik je mee helpen?\n%[Ik heb schade](postback:schade) \n %[Ik heb een vraag](postback:vraag)",
-   "VRAAG" : "XXX",
+   "VRAAG" : "gedaan",
    "YES" : "yeah",
    "HOI" : "Hoi, hoe kan ik je helpen?",
     "WHO": "Hey, I'm so glad you set EstherBot up! Do you want to tell Esther that you're talking to her bot? %[Tell her](postback:twitter)",
