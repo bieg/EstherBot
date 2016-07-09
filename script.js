@@ -5,19 +5,25 @@ const Script = require('smooch-bot').Script;
 
 const scriptRules = require('./script.json');
 
+function wait(ms) {
+    return new Promise((resolve) => {
+        setTimeout(resolve, ms);
+    });
+}
+
 module.exports = new Script({
     processing: {
         //prompt: (bot) => bot.say('Beep boop...'),
         receive: () => 'processing'
     },
+
     start: {
         receive: (bot) => {
-            return bot.say('Ik ben Indy - de bot van Independer. Heb je een vraag?')
+            return bot.say('Get started by saying BOT.')
                 .then(() => 'speak');
         }
     },
-    
-    
+
     speak: {
         receive: (bot, message) => {
 
@@ -44,7 +50,7 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.say(`Sorry - ik begrijp je niet.`).then(() => 'speak');
+                    return bot.say(`So, I'm good at structured conversations but stickers, emoji and sentences still confuse me. Say 'more' to chat about something else.`).then(() => 'speak');
                 }
 
                 var response = scriptRules[upperText];
@@ -55,9 +61,11 @@ module.exports = new Script({
                     line = line.trim();
                     p = p.then(function() {
                         console.log(line);
-                        return bot.say(line);
+                        return wait(50).then(function() {
+                            return bot.say(line);
+                        });
                     });
-                })
+                });
 
                 return p.then(() => 'speak');
             }
